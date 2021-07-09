@@ -4,18 +4,6 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         
-        // try {
-        //     File myObj = new File("basketballStats2021.txt");
-        //     if (myObj.createNewFile()) {
-        //       System.out.println("File created: " + myObj.getName());
-        //     } else {
-        //       System.out.println("File already exists.");
-        //     }
-        //   } catch (IOException e) {
-        //     System.out.println("An error occurred.");
-        //     e.printStackTrace();
-        //   }
-
         Scanner input = new Scanner(System.in);
 
         //THREES
@@ -65,7 +53,6 @@ public class Main{
             out.println(stats.returnStats());
             
         } catch (IOException e) {
-            //exception handling left as an exercise for the reader
             System.out.println("An error occurred.");
             
         }
